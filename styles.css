@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(130, 91, 168);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* The command above will look for one of the font files 
+    (starting from the left) and apply it to the website */
+}
+
+h1 {
+    text-decoration: solid;
+}
+
+h2 {
+    text-decoration: wavy;
+}
+
+p.p1 {
+    color: black;
+}
+
+p.p2 {
+    color: red
+}
+
+.cowboyhours {
+    font-size: 16pt;
+}
+
+.cowboyhours li:first-child {
+    background-color: aquamarine;
+    color:blue
+}
+
+.cowboyhours li:last-child {
+    background-color: aquamarine;
+    color: blue;
+}
+
+.cowboyhours li:nth-child(2) {
+    background-color: aquamarine;
+    color: blue;
+}
